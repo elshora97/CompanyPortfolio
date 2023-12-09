@@ -20,8 +20,8 @@
     13. Contact CSS
     14. Page Banner CSS
     15. Footer Widget CSS
-    156. Footer CSS
-	
+    16. Footer CSS
+    17. single service
 
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
@@ -75,7 +75,7 @@ h1 {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -4266,10 +4266,6 @@ textarea:-ms-input-placeholder {
 /*  17. single service
 /*----------------------------------------*/
 
-.single-service-banner {
-  min-height: 520px;
-}
-
 .single-service-banner .page-banner {
   display: flex;
   align-items: center;
@@ -4311,7 +4307,7 @@ textarea:-ms-input-placeholder {
   border-radius: 13px;
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 300px;
+  width: 600px;
   height: 350px;
   overflow: auto;
   text-align: center;
@@ -4335,4 +4331,58 @@ textarea:-ms-input-placeholder {
   opacity: 0.47;
   background: linear-gradient(90deg, #693eaa 0%, #01ebf2 100%);
   box-shadow: 0px 37px 79px 0px rgba(0, 0, 0, 0.13);
+}
+
+@media only screen and (max-width: 991px) {
+  .single-service-banner .banner-img {
+    margin-top: 0px;
+    width: 160px;
+    height: 100px;
+  }
+  /* .service-details-section {
+    margin-top: 80px;
+  } */
+  .service-details-section .content {
+    width: 950px;
+    /* padding: 10px; */
+  }
+  .service-details-section {
+    gap: 100px;
+    flex-direction: column-reverse;
+  }
+  .service-details-section .service-list {
+    margin: 0 0 20px 0;
+    width: 800px;
+    height: 110px;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .service-details-section .service-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .service-details-section .service-list li {
+    font-size: 16px;
+    margin: 15px;
+    padding: 5px;
+    border-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .service-details-section {
+    margin-top: 0px;
+  }
+  .service-details-section .content {
+    width: 500px;
+  }
+
+  .service-details-section .service-list {
+    width: 450px;
+  }
+  .service-details-section .service-list li {
+    font-size: 12px;
+  }
 }
