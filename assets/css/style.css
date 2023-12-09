@@ -985,7 +985,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
   .offcanvas {
-    width: 280px;
+    width: 320px;
   }
 }
 
@@ -2487,11 +2487,17 @@ textarea:-ms-input-placeholder {
   .about-section-07 .about-content-wrap .about-list-03 .about-list-item-03 {
     padding-right: 0px;
   }
+  .about-section-07 .about-content-wrap .title {
+    width: 500px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
   .about-section-07 .about-img-wrap .shape-1 {
     display: none;
+  }
+  .about-section-07 .about-content-wrap .text {
+    width: 500px;
   }
 }
 
@@ -3705,6 +3711,12 @@ textarea:-ms-input-placeholder {
 
 .team-active .swiper-pagination .swiper-pagination-bullet {
   margin: 0 7px;
+}
+
+@media only screen and (max-width: 991px) {
+  .single-team .team-img a {
+    text-align: center;
+  }
 }
 
 /*--
