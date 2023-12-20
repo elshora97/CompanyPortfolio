@@ -386,7 +386,7 @@ function setContent() {
   });
 }
 
-serviceList.addEventListener("click", function (event) {
+serviceList?.addEventListener("click", function (event) {
   if (event.target.tagName === "LI") {
     const items = serviceList.getElementsByTagName("li");
     for (const item of items) {

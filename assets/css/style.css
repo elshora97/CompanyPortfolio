@@ -1738,6 +1738,8 @@ textarea:-ms-input-placeholder {
     width: 325px;
     height: 325px;
     padding: 105px 70px;
+    top: 20px;
+    left: 30px;
   }
   .service-section-07 .experience-wrap .experience .number {
     font-size: 150px;
@@ -2083,6 +2085,7 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
   .cta-section-05 .cta-wrap {
     padding: 70px 70px 70px;
+    background: none;
   }
   .cta-section-05 .cta-wrap .cta-content .title {
     font-size: 36px;
@@ -2298,7 +2301,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
   .about-section-06 .about-img .image img {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .about-section-06 .about-content-wrap .about-list-wrap .about-list li a {
